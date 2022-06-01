@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">   <title>Frontend Mentor | Minimalist Portfolio</title>
+  
+  <title>Frontend Mentor | Insure Project</title>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <ul id="dropDown-list" class="top-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <div id="hamburger"  class="hamburger" class="dropDown">
+          <img class="dropDown" id="hamburger-icon"  src="./images/icons/hamburger.svg" alt="">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <picture>
+          <source media="(min-width:1440px)"  srcset="./images/detail/desktop/image-insure-hero.jpg">
+          <source media="(min-width:768px)"  srcset="./images/detail/tablet/image-insure-hero.jpg">
+          <img src="./images/detail/mobile/image-insure-hero.jpg" alt="">
+        </picture>
+        <div class="project-description">
+          <h2 class="project-description-title">Insure</h2>
+          <p class="project-description-description">
+            This was a small project which mostly consisted of HTML and CSS. I built a
+      fully-responsive landing page. The only JavaScript this project required was
+      to enable the toggling of the mobile navigation.
+            
+          </p>
+          <div class="project-description-tech">
+            <div class="accent">Interaction Design / Front End Development</div>
+            <div class="accent">HTML / CSS / JS</div>
+          </div>
+          
+          <form class="project-description-button" action="./manage.html">
+            <button type="submit" class="secondary">Visit Website</button>
+          </form>
+        </div>
+      </section>
+      <section>
+        <h3>Project Background</h3>
+        <p>
+          This project was a front-end  challenge from Frontend Mentor. It’s a platform that
+      enables you to practice building websites to a design and project brief. Each challenge
+      includes mobile and desktop designs to show how the website should look at different
+      screen sizes. Creating these projects has helped me refine my workflow and solve
+      real-world coding problems. I’ve learned something new with each project, helping
+      me to improve and adapt my style.
+        </p>
+      </section>
+      <section class="previews">
+        <h3>Static Previews</h3>
+        <picture>
+          <source media="(min-width:1440px)"  srcset="./images/detail/desktop/image-insure-preview-1.jpg">
+          <source media="(min-width:768px)"  srcset="./images/detail/tablet/image-insure-preview-1.jpg">
+          <img class="image" src="./images/detail/mobile/image-insure
+          -preview-1.jpg" alt="">
+        </picture>
+        <picture>
+          <source media="(min-width:1440px)"  srcset="./images/detail/desktop/image-insure-preview-2.jpg">
+          <source media="(min-width:768px)"  srcset="./images/detail/tablet/image-insure-preview-2.jpg">
+          <img class="image" src="./images/detail/mobile/image-insure
+          -preview-2.jpg" alt="">
+        </picture>
+      </section>
+      <div class="project-traversal">
+        <form class="action" action="./bookmark.html">
+          <button class="project-traversal-btn">
+              <div class="project-traversal-icon">
+                <img src="./images/icons/arrow-left.svg" alt="">
+              </div>
+            <h3>Bookmark</h3>
+            <div class="project-traversal-tag">Previous Project</div>
+          </button>
+        </form>
+        <form class="action" action="./fylo.html">
+          <button type="submit" class="project-traversal-btn">
+              <div class="project-traversal-icon right">
+                <img src="./images/icons/arrow-right.svg" alt="">
+              </div>
+            <h3>Fylo</h3>
+            <div class="project-traversal-tag">Next Project</div>
+          </button>
+        </form>
+      </div>
+      <section class="conclusion">
+        <h2>Interested in doing a project together?</h2>
+        <div class="line"></div>
+        <form action="./contact.html">
+          <button type="submit" class="secondary">Contact Me</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+      </div>
+      <div class="footer-links-container">
+        <ul class="footer-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <ul class="footer-links-social">
+          <li class="link"><a href="#"><img src="./images/icons/github.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/twitter.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
+<script src="./js/main.js"></script>
+</html>

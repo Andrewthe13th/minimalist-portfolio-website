@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">   <title>Frontend Mentor | Minimalist Portfolio</title>
+  
+  <title>Frontend Mentor | My Projects</title>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <ul id="dropDown-list" class="top-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <div id="hamburger"  class="hamburger" class="dropDown">
+          <img class="dropDown" id="hamburger-icon"  src="./images/icons/hamburger.svg" alt="">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="project">
+        <div class="about-container">
+          <picture class="about-img">
+            <source media="(min-width:1440px)" srcset="./images/portfolio/desktop/image-portfolio-manage.jpg">
+            <source media="(min-width:768px)" srcset="./images/portfolio/tablet/image-portfolio-manage.jpg">
+            <img class="image" src="./images/portfolio/mobile/image-portfolio-manage.jpg" alt="">
+          </picture>
+          <div class="description">
+            <div class="description-container">
+              <h2>Manage</h2>
+              <p>
+                This project required me to build a fully responsive landing page to the designs provided.
+                I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
+                such as the testimonial slider.
+              </p>
+              <form action="./manage.html">
+                <button class="secondary">View Project</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="about-container">
+          <picture class="about-img">
+            <source media="(min-width:1440px)" srcset="./images/portfolio/desktop/image-portfolio-bookmark.jpg">
+            <source media="(min-width:768px)" srcset="./images/portfolio/tablet/image-portfolio-bookmark.jpg">
+            <img class="image" src="./images/portfolio/mobile/image-portfolio-bookmark.jpg" alt="">
+          </picture>
+          <div class="description">
+            <div class="description-container">
+              <h2>Bookmark</h2>
+              <p>
+                This project required me to build a fully responsive landing page to the designs provided. I
+                used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such
+                as the features section.
+              </p>
+              <form action="./bookmark.html">
+                <button class="secondary">View Project</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="about-container">
+          <picture class="about-img">
+            <source media="(min-width:1440px)" srcset="./images/portfolio/desktop/image-portfolio-insure.jpg">
+            <source media="(min-width:768px)" srcset="./images/portfolio/tablet/image-portfolio-insure.jpg">
+            <img class="image" src="./images/portfolio/mobile/image-portfolio-insure.jpg" alt="">
+          </picture>
+          <div class="description">
+            <div class="description-container">
+              <h2>Insure</h2>
+              <p>
+                This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive
+                landing page. The only JavaScript this project required was to enable the toggling of the
+                mobile navigation.
+              </p>
+              <form action="./insure.html">
+                <button class="secondary">View Project</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="about-container">
+          <picture class="about-img">
+            <source media="(min-width:1440px)" srcset="./images/portfolio/desktop/image-portfolio-fylo.jpg">
+            <source media="(min-width:768px)" srcset="./images/portfolio/tablet/image-portfolio-fylo.jpg">
+            <img class="image" src="./images/portfolio/mobile/image-portfolio-fylo.jpg" alt="">
+          </picture>
+          <div class="description">
+            <div class="description-container">
+              <h2>Fylo</h2>
+              <p>
+                This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and
+                built it so that it was fully-responsive. I took a mobile-first approach and used modern
+                CSS like Flexbox and Grid for layout purposes.
+              </p>
+              <form action="./fylo.html">
+                <button class="secondary">View Project</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="conclusion">
+        <h2>Interested in doing a project together?</h2>
+        <div class="line"></div>
+        <form action="./contact.html">
+          <button type="submit" class="secondary">Contact Me</button>
+        </form>
+      </section>
+    </main>
+    
+  </div>
+  <footer>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+      </div>
+      <div class="footer-links-container">
+        <ul class="footer-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <ul class="footer-links-social">
+          <li class="link"><a href="#"><img src="./images/icons/github.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/twitter.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+
+</body>
+<script src="./js/main.js"></script>
+</html>

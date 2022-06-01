@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">   <title>Frontend Mentor | Minimalist Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <ul id="dropDown-list" class="top-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <div id="hamburger"  class="hamburger" class="dropDown">
+          <img class="dropDown" id="hamburger-icon"  src="./images/icons/hamburger.svg" alt="">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="hero-container">
+          <div>
+            <picture class="hero-img">
+              <source media="(min-width:1440px)" srcset="./images/homepage/desktop/image-homepage-hero.jpg">
+              <source media="(min-width:768px)" srcset="./images/homepage/tablet/image-homepage-hero.jpg">
+              <img src="./images/homepage/mobile/image-homepage-hero.jpg" alt="">
+            </picture>
+          </div>
+          <div class="hero-description">
+            <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+            <form action="#about">
+              <button class="primary">
+                <div class="primary-icon"><img src="./images/icons/down-arrows.svg" alt=""></div>
+                <div class="primary-text">About Me</div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="body" id="about">
+        <div class="about-container">
+          <picture class="about-img">
+            <source media="(min-width:1440px)" srcset="./images/homepage/desktop/image-homepage-profile.jpg">
+            <source media="(min-width:768px)" srcset="./images/homepage/tablet/image-homepage-profile.jpg">
+            <img class="image" src="./images/homepage/mobile/image-homepage-profile.jpg" alt="">
+          </picture>
+          <div class="description">
+            <h2>About Me</h2>
+            <p>
+              I’m a junior front-end developer looking for a new role in an exciting company.
+              I focus on writing accessible HTML, using modern CSS practices and writing clean
+              JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+              whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+              and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
+              I love being out in nature whether that’s going for a walk, run or cycling. I’d love
+              you to check out my work.
+            </p>
+            <form action="./portfolio.html">
+              <button class="secondary">Go to Portfolio</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="conclusion">
+        <h2>Interested in doing a project together?</h2>
+        <div class="line"></div>
+        <form action="./contact.html">
+          <button type="submit" class="secondary">Contact Me</button>
+        </form>
+      </section>
+      <!-- <div class="text-element">
+        <textarea class="required" placeholder="What is your message?" cols="38" rows="2"></textarea>
+        <div class="error">This field is required</div>
+      </div>
+      <div class="text-element">
+        <input class="required" placeholder="Insert your name here..." type="text"></inp>
+        <div class="error">This field is required</div>
+      </div> -->
+    </main>
+  </div>
+  <footer>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+      </div>
+      <div class="footer-links-container">
+        <ul class="footer-links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="link"><a href="./contact.html">Contact Me</a></li>
+        </ul>
+        <ul class="footer-links-social">
+          <li class="link"><a href="#"><img src="./images/icons/github.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/twitter.svg" alt=""></a></li>
+          <li class="link"><a href="#"><img src="./images/icons/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
